@@ -1,3 +1,3 @@
-## Projeto backend de testa da vaga do picpay
+## Projeto backend de teste da vaga do picpay
 ### API Spring
 
