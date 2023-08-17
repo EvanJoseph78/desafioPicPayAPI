@@ -10,7 +10,7 @@ import com.picpaysimplificado.domain.user.User;
 import com.picpaysimplificado.domain.user.UserType;
 
 @Service
-public class UserServices {
+public class UserService {
     @Autowired
     private UserRepository repository;
 
