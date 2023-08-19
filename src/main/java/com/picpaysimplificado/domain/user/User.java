@@ -47,6 +47,7 @@ public class User {
     this.balance = user.balance();
     this.userType = user.userType();
     this.password = user.password();
+    this.document = user.document();
     this.email = user.email();
   }
 }
