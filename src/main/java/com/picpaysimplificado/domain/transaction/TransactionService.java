@@ -35,7 +35,7 @@ public class TransactionService {
 
     public Transaction createTransaction(TransactionDTO transaction) throws Exception {
         User sender = this.userService.findUserById(transaction.senderId());
-        User reciever = this.userService.findUserById(transaction.receiverId());
+        User reciever = this.userService.findUserById(transaction.recieverId());
 
         userService.validateTransaction(sender, transaction.value());
 

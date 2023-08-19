@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 
 import com.picpaysimplificado.domain.user.UserType;
 
+import jakarta.persistence.Enumerated;
+
 
 public record UserDTO(
         String firstName,
@@ -12,6 +14,7 @@ public record UserDTO(
         BigDecimal balance,
         String email,
         String password,
+        @Enumerated
         UserType userType
         ) {
 
